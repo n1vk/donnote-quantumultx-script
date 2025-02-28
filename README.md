@@ -14,11 +14,14 @@ Donnote QuantumultX 脚本用于在 QuantumultX 软件中重现 Donnote 获取�
 
 在主页面，确保重写规则选项卡内已有两个重写规则。
 
-![image](https://github.com/user-attachments/assets/6fa12363-8018-4e14-bf81-803cc256d00e)
-
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/6fa12363-8018-4e14-bf81-803cc256d00e" alt="重写规则" width="300" />
+</div>
 
 ## 启动软件并同步
 
 长按右下角设置运行模式为全部代理，并开启代理（你不需要任何代理节点）。接下来和电脑端进行同样的操作流程即可，如果你允许了App通知权限，你将会收到成功/失败的系统提示。
 
-![IMG_7895](https://github.com/user-attachments/assets/a8d97840-e6e8-47df-b281-16af522a9dec)
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/a8d97840-e6e8-47df-b281-16af522a9dec" alt="重写规则" width="300" />
+</div>
