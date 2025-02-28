@@ -20,7 +20,11 @@ https://raw.githubusercontent.com/n1vk/donnote-quantumultx-script/refs/heads/mai
 https://raw.gitmirror.com/n1vk/donnote-quantumultx-script/refs/heads/main/taiko_download_cdn.snippet
 ```
 
-如果仍然失败，请按照以下方式尝试手动添加。
+使用国内加速镜像。
+
+推荐关闭自动更新，如有需要手动更新即可。
+
+如果两个域名均添加失败，请按照以下方式尝试手动添加。
 
 
 ## 手动添加重写规则
