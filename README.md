@@ -15,7 +15,12 @@ Donnote QuantumultX 脚本用于在 QuantumultX 软件中重现 Donnote 获取�
 https://raw.githubusercontent.com/n1vk/donnote-quantumultx-script/refs/heads/main/taiko_download.snippet
 ```
 
-如果提示“无法连接至服务器”，说明你的网络访问Github有障碍，请按照以下方式尝试手动添加。
+如果提示“无法连接至服务器”，说明你的网络访问Github有障碍，请将链接修改为：
+```
+https://raw.gitmirror.com/n1vk/donnote-quantumultx-script/refs/heads/main/taiko_download_cdn.snippet
+```
+
+如果仍然失败，请按照以下方式尝试手动添加。
 
 
 ## 手动添加重写规则
@@ -34,10 +39,12 @@ https://raw.githubusercontent.com/n1vk/donnote-quantumultx-script/refs/heads/mai
   <img src="https://github.com/user-attachments/assets/6fa12363-8018-4e14-bf81-803cc256d00e" alt="重写规则" width="300" />
 </div>
 
-### 启动软件并同步
+## 启动软件并同步
 
 长按右下角设置运行模式为全部代理，并开启代理（你不需要任何代理节点）。接下来和电脑端进行同样的操作流程即可，如果你允许了App通知权限，你将会收到成功/失败的系统提示。
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/a8d97840-e6e8-47df-b281-16af522a9dec" alt="重写规则" width="300" />
 </div>
+
+同步结束后，记得关闭代理。
