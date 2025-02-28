@@ -4,13 +4,17 @@ Donnote QuantumultX 脚本用于在 QuantumultX 软件中重现 Donnote 获取�
 
 ## 前置条件
 
-1. 安装了 QuantumultX 软件的 iOS 设备，推荐开启 QuantumultX 通知权限。
-2. 在 QuantumultX 软件中，启动 MitM 并按照说明添加描述文件和信任证书。
-3. 将 `taiko.snippet` 拷贝到`文件`的`本地存储/QuantumultX/Profile`内，将`getter.js`, `setter.js`拷贝到`本地存储/QuantumultX/Scripts`内。
+1. 安装了 QuantumultX 软件的 iOS 设备（推荐开启 QuantumultX 通知权限）。
+2. 在 QuantumultX 设置中，启用 MitM ，按照说明添加描述文件并信任证书。
+3. 在 QuantumultX 设置中，启用重写。
+
+## 拷贝脚本
+
+将代码库中的 `taiko.snippet` 拷贝到`文件`的`本地存储/QuantumultX/Profile`内，将`getter.js`, `setter.js`拷贝到`本地存储/QuantumultX/Scripts`内。
 
 ## 添加重写规则资源
 
-在设置-重写栏目内，打开重写开关，选择规则资源，点击右上角的添加连接，在资源路径选项中选择本地拷贝的 `taiko.snippet` 文件。
+在设置-重写栏目内，选择规则资源，点击右上角的添加连接，在资源路径选项中选择本地拷贝的 `taiko.snippet` 文件。
 
 在主页面，确保重写规则选项卡内已有两个重写规则。
 
