@@ -1,6 +1,5 @@
-[rewrite_local]
-# ① 从成绩页面提取数据并保存（调用 game_score_save.js 脚本）
+hostname = wl-taiko.wahlap.net, www.baidu.com
+
 ^https:\/\/wl\-taiko\.wahlap\.net\/api\/user\/profile\/songscore url script-response-body getter.js
 
-# ② 拦截对不存在 URL 的访问，返回保存的成绩（调用 game_score_return.js 脚本）
 ^https:\/\/www\.baidu\.com\/api\/ahfsdafbaqwerhue url script-response-body setter.js
