@@ -1,5 +1,7 @@
 # Donnote-QuantumultX-Script
 
+**Donnote现已提供使用华立玩家信息查询接口实现的成绩更新方式，本项目已弃用。**
+
 Donnote QuantumultX 脚本用于在 QuantumultX 软件中重现 Donnote 获取成绩的 MitM 逻辑，方便 Donder 直接在手机上同步成绩。
 
 ## 前置条件
